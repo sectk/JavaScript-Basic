@@ -1,0 +1,138 @@
+
+//let a = 2;
+//let b = 3;
+//let c = a+b;
+//console.log(c);
+
+//let a = 2;
+//let b = 3;
+//let c = 4;
+//let d = 5;
+//let e = ((b+a)*c)/(a*b*b)+(a-d);
+//console.log(e);
+//3+2*4/2*3*3+2-5
+
+let x = 6;
+let y = 5;
+let hasil = x>y;
+
+if(x>y){
+    console.log("benar");
+    
+}else{
+    console.log("salah");
+}
+
+//let nilai = 80;
+//let lulus = 100;
+//let hasil = nilai>lulus;
+//let hasil2 = nilai<lulus;
+
+//if(hasil){
+    //console.log("tidak lulus")
+//}
+
+
+let bulan = 1; 
+let tgl = 19;
+let zodiak = "belum dibuat";
+if(bulan==1){
+    if(tgl>0 && tgl<20){
+        zodiak="pisces";
+        if(tgl>19 && tgl<32){
+            zodiak="capricon";
+        }
+
+    }
+if(bulan==2){
+    if(tgl>0 && tgl<21){
+        zodiak="capricon";
+        if(tgl>20 && tgl<30){
+            zodiak="aquarius";
+        }
+    }
+}   
+if(bulan==3){
+    if(tgl>0 && tgl<22){
+        zodiak="aquarius";
+        if(tgl>21 && tgl<32){
+            zodiak="taurus";
+        }
+    }
+
+}
+if(bulan==4){
+    if(tgl>0 && tgl<21){
+        zodiak="taurus";
+        if(tgl>20 && tgl<31){
+            zodiak="gemini"
+        }
+    }
+}
+if(bulan==5){
+    if(tgl>0 && tgl<21){
+        zodiak="gemini";
+        if(tgl>20 && tgl<30){
+            zodiak="leo";
+        }
+    }
+}
+if(bulan==6){
+    if(tgl>0 && tgl<21){
+        zodiak="leo";
+        if(tgl>20 && tgl<30){
+            zodiak="aries";
+        }
+    }
+}
+if(bulan==7){
+    if(tgl>0 && tgl<21){
+        zodiak="aries";
+        if(tgl>20 && tgl<30){
+            zodiak="cancer";
+        }
+    }
+}
+if(bulan==8){
+    if(tgl>0 && tgl<21){
+        zodiak="cancer";
+        if(tgl>20 && tgl<30){
+            zodiak="virgo";
+        }
+    }
+}
+if(bulan==9){
+    if(tgl>0 && tgl<21){
+        zodiak="virgo";
+        if(tgl>20 && tgl<30){
+            zodiak="libra";
+        }
+    }
+}
+if(bulan==10){
+    if(tgl>0 && tgl<21){
+        zodiak="libra";
+        if(tgl>20 && tgl<30){
+            zodiak="scorpio";
+        }
+    }
+}
+if(bulan==11){
+    if(tgl>0 && tgl<21){
+        zodiak="scorpio";
+        if(tgl>20 && tgl<30){
+            zodiak="sagitarius";
+        }
+    }
+}
+if(bulan==12){
+    if(tgl>0 && tgl<21){
+        zodiak="sagitarius";
+        if(tgl>20 && tgl<30){
+            zodiak="pisces";
+        }
+    }
+}
+
+}
+console.log(zodiak);
