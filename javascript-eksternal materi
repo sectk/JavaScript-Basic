@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript</title>
+    <script src="java.js" async defer></script>
+</head>
+<body>
+
+    <!-- javascript eksternal -->
+    
+ <br><br>
+
+ <h1 id="waktu">Waktu</h1>
+        <button onclick="Waktu()">
+            Waktu
+        </button>
+        <button onclick="Halo()">
+            Klik Ini
+        </button>
+
+        <h1 id="waktu">Belajar Js-Eksternal</h1>
+        <button id="jam">waktu</button>
+        <button id="hari">klik</button>
+<br><br>
+
+           <!-- menampilkan text dengan fungsi onchange dan onmouseover -->
+        <div>
+            <input type="text" placeholder="ketik nama kamu" id="ketik"> <p>Dengan Onmouseover</p>
+        </div>
+        
+<br><br>
+        <div>
+            <input type="text" placeholder="siapa oshi kamu????" id="oshi"> <p>Tanpa Onmouseover</p>
+        </div>
+        
+</body>
+</html>
+
+
+kode javascriptnya :
+
+function Waktu(){
+    document.getElementById('waktu').innerHTML = Date();
+}
+function Halo(){
+    alert("halo java script");
+}
+    let isi=document.getElementById('ketik');
+    let tampil=document.getElementById('waktu');
+    isi.onmouseover=function(){
+        tampil.innerHTML=isi.value;
+    }
+    let zee=document.getElementById('oshi'); 
+    let kity=document.getElementById('waktu');
+    oshi.onchange=function(){
+        kity.innerHTML=oshi.value;
+    }
+
+    
+
+    // event btn untuk id jam
+    let btn=document.getElementById("jam");
+
+    btn.onclick=function(){
+        document.getElementById('waktu').innerHTML=Date();
+    }
+    
+    // event listener untuk id hari
+    // mouseover untuk text mengambang
+    let hari=document.getElementById('hari');
+    hari.addEventListener("mouseover",coba);
+
+    function coba(){
+        alert("coba coba");
+    }
+
+
+
+
+
+
+
+
