@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presentasi Js</title>
+    <script src="java.js" async defer></script>
+</head>
+<body>
+    <!--Operator JAVASCRIPT-->
+    <h1 id="hasil">hasil akhir</h1>
+    <input type="number" id="bill" placeholder="bilangan 1">
+    <br><br>
+    <input type="number" id="bill2" placeholder="bilangan 2">
+    <hr>
+    <button onclick= "jumlah()">Pertambahan</button> <!--pertambahan--> (+)
+    <br><br>
+    <button onclick="kurang()">Pengurangan</button> <!--pengurangan--> (-)
+    <br><br>
+    <button onclick="perkalian()">Perkalian</button> <!--perkalian--> (*)
+    <br><br>
+    <button onclick="pembagian()">Pembagian</button> <!--pembagian--> (/)
+</body>
+</html>
+       
+       
+       
+       
+kode java script :
+
+
+    function jumlah(){
+    let a=document.getElementById('bill').value;
+    let b=document.getElementById('bill2').value;
+    let hasil= parseInt(a)+parseInt(b);
+    document.getElementById('hasil').innerHTML=hasil;
+}
+    function kurang(){
+    let a=document.getElementById('bill').value;
+    let b=document.getElementById('bill2').value;
+    let hasil= a-b;
+    document.getElementById('hasil').innerHTML=hasil;
+    }
+    function perkalian(){
+    let a=document.getElementById('bill').value;
+    let b=document.getElementById('bill2').value;
+    let hasil= a*b;
+    document.getElementById('hasil').innerHTML=hasil;
+    }
+    function pembagian(){
+    let a=document.getElementById('bill').value;
+    let b=document.getElementById('bill2').value;
+    let hasil= a/b;
+    document.getElementById('hasil').innerHTML=hasil;
+    }
