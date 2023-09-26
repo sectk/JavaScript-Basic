@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>setTimeout JavaScript</title>
+</head>
+
+    <!-- syntax setTimeOut
+
+        setTimeout(namaFungsi, miliseconds);
+
+    -->
+<body>
+
+<!-- 
+    <h1 id="text1"></h1>
+    <h1 id="text2"></h1>
+    <h1 id="text3"></h1> 
+    <h1 id="text4"></h1>  -->
+
+    <script type="text/javascript">
+
+        tampilkanText();
+            function tampilkanText(){
+                alert("happy birthday");
+         }
+
+         
+        //     setTimeout(tampilkanText4,1000);
+        //  function tampilkanText4(){
+        //         document.getElementById("text4").innerHTML = "happy birthday";
+        // }
+
+        // materi presentasi
+
+            // setTimeout(tampilkanText1,1000);
+            // setTimeout(tampilkanText2,2000);
+            // setTimeout(tampilkanText3,3000);
+            
+            // function tampilkanText1(){
+            //     document.getElementById("text1").innerHTML = "happy birthday";
+            // }
+            // function tampilkanText2(){
+            //     document.getElementById("text2").innerHTML = "happy birthday";
+            // }
+            // function tampilkanText3(){
+            //     document.getElementById("text3").innerHTML = "happy birthday to you";
+            // }
+    </script>
+</body>
+</html>
