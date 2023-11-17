@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+    <script src="/javascript.js" defer></script>
+    <style>
+        img{
+            width:  400px;
+            visibility: visible;
+            /* position absolute; */
+        }
+    </style>
+
+</head>
+<body>
+
+    <button onclick="tampil()">Klik</button>
+
+    <div class="container">
+        <h1>Javascript</h1>
+        <p id="para">Lorem ipsum dolor sit amet.</p>
+    </div>
+
+    <div>
+        <img src="#" alt="">
+        <img src="#" alt="">
+        <img src="#" alt="">
+    </div>
+</body>
+</html>
+
+
+
+
+function tampil() {
+//   document.querySelector("h1").innerText = "belajar javascript";
+//   document.querySelector(".container").style.backgroundColor = "red";
+//   document.querySelector("#para").style.fontSize = "50px";
+
+console.log(document.querySelector("img") );
+
+min = Math.cell(0);
+max = Math.floor(2);
+let = Math.floor(Math.random() * (max - min + 1) + min);
+console.log(n);
+
+document.querySelectorA11("img")[0].style.visibility="visible";
+}
+
+
