@@ -8,12 +8,12 @@
     <script src="/javascript.js" defer></script>
 </head>
 <body>
-    <h1 onclick="tampil()">Klik aku</h1>
+    <h1 id="aku" onclick="tampil()">Klik aku</h1>
 </body>
 </html>
 
- function tampil() {
-    alert("javascript");
-} 
+function tampil() {
+  document.getElementById("#aku").innerHTML = "javasccript";
+}
 
   
