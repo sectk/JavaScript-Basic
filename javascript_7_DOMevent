@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Javascript</title>
+     <script src="/javascript.js" defer></script>
+     <style>
+         /* img{
+            width:  400px;
+            visibility: hidden
+            position absolute; 
+        }    <style>
+       */
+    </style>
+</head>
+<body>
+
+    <input type="text" name="" id="nama">
+    <input type="text" name="" id="hasil"> 
+
+    <button id="btn">simpan</button>
+
+    <div class="container">
+        <h1>Dom Form</h1>
+        <p id="para"></p>
+    </div>
+
+    <div>
+        <img src="#" alt="">
+        <img src="#" alt="">
+        <img src="#" alt="">
+    </div>
+</body>
+</html>
+
+  function tampil() {
+    alert(document.querySelector("#nama").value );
+    
+    document.querySelector("#hasil").value = document.querySelector("#nama").value;
+    
+    document.querySelector("#para").innerText = document.querySelector("#nama").value;
+    
+}
+
+btn.onclick = tampil;
+
+btn.onclick = function(){
+    alert("javascript");
+
+}
+
+// btn.addEventListener('click',tampil);
+
+// btn.addEventListener('mouseover',tampil);
+
+btn.addEventListener('mouseover', function() {
+    alert("event");
+})
